@@ -1,0 +1,13 @@
+{
+  "name": "simpleproxy-function-4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "test": "node --loader ./test_suite/text-template-loader.mjs --test test_suite/*.smoke.test.js"
+  },
+  "dependencies": {
+    "jsonata": "^2.0.6",
+    "yaml": "^2.8.1"
+  }
+}
